@@ -1,9 +1,9 @@
 /* front.c - a lexical analyzer system for simple arithmetic expressions */
 #include <stdio.h>   // For input/output functions
-#include <ctype.h>   // For character classification functions like isalpha(), isdigit(), etc.
+#include <ctype.h>   // For character classification functions
 /* Global declarations */
 /* Variables */
-int charClass;          // Class of current character (LETTER, DIGIT, UNKNOWN, EOF)
+int charClass;          // Class of current character
 char lexeme[100];  // Array to store the current lexeme
 char nextChar;          // The current character read from input
 int lexLen;             // Current length of the lexeme
